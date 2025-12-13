@@ -14,19 +14,23 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-        <div class="px-5 py-3 w-100 d-flex align-items-center">
+        <div class="px-5 py-3 w-100 d-flex align-items-center justify-content-between flex-wrap">
 
             <a class="navbar-brand" href="#">
                 <img src="Assets/img/logo.svg" alt="League of Legends" class="d-inline-block align-top logo-size">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
             </button>
 
-            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse flex-grow-1 text-center" id="navbarSupportedContent">
 
-                <ul class="navbar-nav ms-lg-5 mb-2 mb-lg-0" style="margin-left: 20px;">
+                <ul class="navbar-nav custom-nav-gap mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">HOME </a>
                     </li>
@@ -40,22 +44,29 @@
                         <a class="nav-link" href="#">RUNETERRA</a>
                     </li>
                 </ul>
+                <button class="btn btn-primary d-lg-none mt-3 px-4 py-2">play now</button>
             </div>
-        <button class="btn btn-primary px-4">PLAY NOW</button>
+            <button class="btn btn-primary d-none d-lg-block px-4 py-2">play now</button>
         </div>
     </nav>
 
-    <div class="container-fluid bg-light p-5">
-        <div class="col">
-            <div class="row-12 text-white text-center">
-                <h1>Champions Gallery</h1>
+    <div class="container-fluid mb-5">
+        <div class="row">
+            <div class="col-12 hero-background d-flex flex-column align-items-center justify-content-center">
+                <span class="hero-span">LEAGUE OF LEGENDS</span>
+
+                <h1 class="hero-text">Champions</h1>
+
+                <p class="hero-desc">
+                    With more than 170 champions, you’ll find the perfect match for your playstyle. 
+                    Master one, or master them all.
+                </p>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="col">
-            <div class="row mt-4" id="contents"></div>
+    <div class="container-league">
+        <div class="row mt-5" id="contents">
         </div>
     </div>
 
