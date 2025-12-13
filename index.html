@@ -53,20 +53,63 @@
     <div class="container-fluid mb-5">
         <div class="row">
             <div class="col-12 hero-background d-flex flex-column align-items-center justify-content-center">
-                <span class="hero-span">LEAGUE OF LEGENDS</span>
+            
+                <div class="hero-frame-wrapper">
 
-                <h1 class="hero-text">Champions</h1>
+                    <div class="hero-frame-bg"></div>
+                
+                    <img src="Assets/img/frame.svg" alt="" class="hero-frame-border">
+                
+                    <div class="hero-frame-content d-flex flex-column align-items-center">
+                    
+                        <span class="hero-span">LEAGUE OF LEGENDS</span>
+    
+                        <h1 class="hero-text">Champions</h1>
+    
+                        <div class="gold-line">
+                            <img src="Assets/img/gold-line.svg" alt="Gold Line" class="gold-line-img">
+                        </div>
+    
+                        <p class="hero-desc mt-2">
+                            With more than 170 champions, you’ll find the perfect match for your playstyle. 
+                            Master one, or master them all.
+                        </p>
+                    
+                    </div>
+                
+                </div>
 
-                <p class="hero-desc">
-                    With more than 170 champions, you’ll find the perfect match for your playstyle. 
-                    Master one, or master them all.
-                </p>
             </div>
         </div>
     </div>
 
     <div class="container-league">
+
+        <div class="tools d-flex justify-content-between align-items-center">
+
+            <div class="search-bar d-flex align-items-center">
+                <input type="text" id="searchInput" placeholder="Search champions...                  " />
+                <button id="searchButton">
+                    <img src="Assets/img/search-icon.svg" alt="Search" />
+                </button>
+            </div>
+
+            <div class="pagination">
+                <button class="pagination-button">&lt;</button>
+                <span class="pagination -info">1-20 of 170</span>
+                <button class="pagination   -button">&gt;</button>
+            </div>
+
+        </div>
+
         <div class="row mt-5" id="contents">
+        </div>
+
+    </div>
+
+    <div class="footer container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12"></div>
         </div>
     </div>
 
