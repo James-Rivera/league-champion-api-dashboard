@@ -26,7 +26,7 @@ This project demonstrates modern web design principles, responsive layouts, and 
 
 ## Live Preview
 
-🔗 **[View Live Demo](https://james-rivera.github.io/LOL-champions-gallery/)**
+🔗 **[View Live Demo](https://james-rivera.github.io/league-champion-api-dashboard/)**
 
 <img src="screenshot.png" alt="League of Legends Gallery" width="100%">
 
